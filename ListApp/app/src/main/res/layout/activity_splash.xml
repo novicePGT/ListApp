@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".activity.SplashActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/img_list"/>
+
+    <!-- 이미지 다운 - flaticon, 이미지는 512px( 플레이스토어 업로드용 ) & 128px( 앱 내부 사용 )
+         폰트 다운 - 눈누 -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/kotra_hope"
+        android:textStyle="bold"
+        android:textColor="#00ABF6"
+        android:textSize="60sp"
+        android:text="Life - List"/>
+
+</LinearLayout>
